@@ -1,2 +1,2 @@
-# dev-abhiig-GSP313
-Lab Solution for [Set Up Network and HTTP Load Balancers - GSP007]
+# Implement Load Balancing on Compute Engine: Challenge Lab - GSP313
+Lab Solution for [Implement Load Balancing on Compute Engine: Challenge Lab - GSP313]
