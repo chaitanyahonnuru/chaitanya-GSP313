@@ -1,0 +1,22 @@
+Bucket name:
+qwiklabs-gcp-04-b726a6f5d2ab
+
+gsutil mb gs://qwiklabs-gcp-04-b726a6f5d2ab
+
+curl https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/800px-Ada_Lovelace_portrait.jpg --output ada.jpg
+
+gsutil cp ada.jpg gs://qwiklabs-gcp-04-b726a6f5d2ab
+
+gsutil cp -r gs://qwiklabs-gcp-04-b726a6f5d2ab/ada.jpg .
+
+gsutil cp gs://qwiklabs-gcp-04-b726a6f5d2ab/ada.jpg gs://qwiklabs-gcp-04-b726a6f5d2ab/image-folder/
+
+gsutil ls gs://qwiklabs-gcp-04-b726a6f5d2ab
+
+gsutil ls -l gs://qwiklabs-gcp-04-b726a6f5d2ab/ada.jpg
+
+gsutil acl ch -u AllUsers:R gs://qwiklabs-gcp-04-b726a6f5d2ab/ada.jpg
+
+gsutil acl ch -d AllUsers gs://qwiklabs-gcp-04-b726a6f5d2ab/ada.jpg
+
+gsutil rm gs://qwiklabs-gcp-04-b726a6f5d2ab/ada.jpg

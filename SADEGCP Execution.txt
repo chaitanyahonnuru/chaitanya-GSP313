@@ -1,0 +1,12 @@
+export USER_2=student-00-834c09fb7c3e@qwiklabs.net
+export REGION=us-central1
+export ZONE=us-central1-b
+export TOPIC=topic-memories-139
+export FUNCTION=memories-thumbnail-maker
+
+
+curl -LO raw.githubusercontent.com/chaitanyahonnuru/chaitanya-GSP313/refs/heads/main/SADEGCP.sh
+
+sudo chmod +x SADEGCP.sh
+
+./SADEGCP.sh

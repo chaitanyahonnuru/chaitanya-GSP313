@@ -1,0 +1,8 @@
+Bucket:
+qwiklabs-gcp-04-ff90d98b4326
+Student1
+student-00-363b3ef81b50@qwiklabs.net
+Student2
+student-00-1447bf337f45@qwiklabs.net
+
+gsutil ls gs://qwiklabs-gcp-04-ff90d98b4326
